@@ -59,8 +59,8 @@ Aquest Notebook executa l'entrenament del model sel·leccionat. A més, donada l
  
  ### tfm-models-test
  Aquest Notebook serveix per validar els models generats. Per tal de executar aquestes proves, s'ha d'indicar:
- - **BT4SA_DS_DIR **: Directori on es troba el subconjunt de test del _dataset_ B-T4SA
+ - **BT4SA_DS_DIR**: Directori on es troba el subconjunt de test del _dataset_ B-T4SA
  - **TWITTER_DS_DIR**: Directori on es troba el conjunt _Twitter Dataset_, utiltizat per validar els models amb un conjunt obtingut d'una font diferent a l'emprat durant l'entrenament del model
- - **RESULTATS_DIR **: Directori on es troben els fitxers amb els pesos i els històrics dels entrenaments executats
+ - **RESULTATS_DIR**: Directori on es troben els fitxers amb els pesos i els històrics dels entrenaments executats
  
   

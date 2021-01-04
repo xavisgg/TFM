@@ -56,4 +56,11 @@ Aquest Notebook executa l'entrenament del model sel·leccionat. A més, donada l
   - False - Inicialitza els pesos de la xarxa amb els pesos del dataset del model pre-entrenat amb el conjunt _ImageNet_ per a la part corresponent al model base i de forma aleatòria per als elements afegits damunt del model base.
   - True - Carrega els pesos per a tot al model utilitzant un fitxer amb els pesos d'una sessió d'entrenament anterior
  - **model_to_train** : "ResNet50" o "SEResNet50". Indica el model base a utilitzar en aquest entrenament i sobre el que s'afegiren les capes per a realitzar la classificació visual del sentiment
+ 
+ ### tfm-models-test
+ Aquest Notebook serveix per validar els models generats. Per tal de executar aquestes proves, s'ha d'indicar:
+ - **BT4SA_DS_DIR **: Directori on es troba el subconjunt de test del _dataset_ B-T4SA
+ - **TWITTER_DS_DIR**: Directori on es troba el conjunt _Twitter Dataset_, utiltizat per validar els models amb un conjunt obtingut d'una font diferent a l'emprat durant l'entrenament del model
+ - **RESULTATS_DIR **: Directori on es troben els fitxers amb els pesos i els històrics dels entrenaments executats
+ 
   

@@ -14,12 +14,39 @@ El projecte es realitza dins de l'àrea de Deep Learning i Machine Learning, i d
 - **src/TFM_models_test.ipynb:** Jupyter Notebook que conté els tests realitzats sobre els models generats.
 
 ### Històric d'entrenaments
-- **data/resnet50_weights_adam.hdf5:** Pesos del model entrenat basat en l'arquitectura ResNet50 utilitzant l'optimitzador Adam.
+
+#### Model basat en arquitectura ResNet-50
+- **resnet50_weights_adam.hdf5:** Pesos del model entrenat basat en l'arquitectura ResNet50 utilitzant l'optimitzador Adam.
 - **data/resnet50_fit_hist_adam_part1.npy:** Històric de la primera part de l'entrenament del model basat en Resnet50 utilitzant l'optimitzador Adam.
 - **data/resnet50_fit_hist_adam_part2.npy:** Històric de la segona part de l'entrenament del model basat en Resnet50 utilitzant l'optimitzador Adam.
-- **data/seresnet50_weights_adam.hdf5:** Pesos del model entrenat basat en l'arquitectura SEResNet50 utilitzant el optimitzador Adam.
-- **data/seresnet50_fit_hist_adam_part1.npy:** Històric de la primera part de l'entrenament del model basat en SEResnet50 utilitzant l'optimitzador Adam.
-- **data/seresnet50_fit_hist_adam_part2.npy:** Històric de la segona part de l'entrenament del model basat en SEResnet50 utilitzant l'optimitzador Adam.
+
+- **resnet50_CP_weights_SGD_NAG.hdf5:** Pesos del model entrenat basat en l'arquitectura ResNet50 utilitzant l'optimitzador Adam.
+- **data/resnet50_fit_hist_SGD_NAG_part1.npy:** Històric de la primera part de l'entrenament del model basat en Resnet50 utilitzant l'optimitzador SGD amb momentum      Nesterov.
+- **data/resnet50_fit_hist_SGD_NAG_part1.npy:** Històric de la segona part de l'entrenament del model basat en Resnet50 utilitzant l'optimitzador SGD amb momentum          Nesterov.
+
+
+- **resnet50_weights_nadam.hdf5:** Pesos del model entrenat basat en l'arquitectura ResNet50 utilitzant l'optimitzador Nadam.
+- **data/resnet50_fit_hist_nadam_part1.npy:** Històric de la primera part de l'entrenament del model basat en Resnet50 utilitzant l'optimitzador Nadam.
+- **data/resnet50_fit_hist_nadam_part2.npy:** Històric de la segona part de l'entrenament del model basat en Resnet50 utilitzant l'optimitzador Nadam.
+
+
+#### Model basat en arquitectura SE-ResNet-50
+
+- **seresnet50_weights_adam.hdf5:** Pesos del model entrenat utilitzant el optimitzador Nadam.
+- **data/seresnet50_fit_hist_adam_part1.npy:** Històric de la primera part de l'entrenament del model utilitzant l'optimitzador Adam.
+- **data/seresnet50_fit_hist_adam_part2.npy:** Històric de la segona part de l'entrenament del model  utilitzant l'optimitzador Adam.
+
+- **data/seresnet50_CP_weights_SGD_NAG.hdf5:** Pesos del model entrenat basat en l'arquitectura ResNet50 utilitzant l'optimitzador Adam.
+- **data/seresnet50_fit_hist_SGD_NAG_part1.npy:** Històric de la primera part de l'entrenament del model basat en Resnet50 utilitzant l'optimitzador SGD amb momentum      Nesterov.
+- **data/seresnet50_fit_hist_SGD_NAG_part2.npy:** Històric de la segona part de l'entrenament del model basat en Resnet50 utilitzant l'optimitzador SGD amb momentum          Nesterov.
+
+
+- **seresnet50_CP_weights_nadam.hdf5:** Pesos del model entrenat basat en l'arquitectura ResNet50 utilitzant l'optimitzador Nadam.
+- **data/seresnet50_fit_hist_nadam_part1.npy:** Històric de l'entrenament del model basat en Resnet50 utilitzant l'optimitzador Nadam.
+
+Els fitxers corresponents als pesos dels models generats així com els històrics d'entrenaments estan disponibles en aquest [enllaç](www.kaggle.com/dataset/e2add917e9b4b51fb8aa857aa92d7f65e38ab2fd073efdd3692fe5a44aec6cb6).
+
+Les imatges utiltizades durant l'entrenament dels models poden ser obtingudes [aquí](www.kaggle.com/dataset/a0bb539e95b3d6cd2e948996deb674493e5955384d83c368d4f02a69d029db27) per al cas del conjunt generat a partir del dataset [B-T4SA](http://www.t4sa.it/) mentre que les imatges del segon conjunt de test, _Twitter Dataset_, poden ser descarregades desde la web dels creadors [aquí](https://www.ee.columbia.edu/ln/dvmm/vso/download/twitter_dataset.html).
 
 ## Configuració dels Jupyter Notebooks
 ### tfm-models-train

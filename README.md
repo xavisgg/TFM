@@ -32,7 +32,7 @@ El projecte es realitza dins de l'àrea de Deep Learning i Machine Learning, i d
 
 #### Model basat en arquitectura SE-ResNet-50
 
-- **seresnet50_weights_adam.hdf5:** Pesos del model entrenat utilitzant el optimitzador Nadam.
+- **seresnet50_weights_adam.hdf5:** Pesos del model entrenat utilitzant el optimitzador Adam.
 - **data/seresnet50_fit_hist_adam_part1.npy:** Històric de la primera part de l'entrenament del model utilitzant l'optimitzador Adam.
 - **data/seresnet50_fit_hist_adam_part2.npy:** Històric de la segona part de l'entrenament del model  utilitzant l'optimitzador Adam.
 
